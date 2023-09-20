@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+  font-family: 'Quicksand', sans-serif;
+  background-color: #e3e3e3;
+}
+
+
+.title{
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.button {
+    position: relative;
+    background-color: transparent;
+    border-radius: 15px;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    border: 2px solid black;
+    color: #171717;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover{
+
+    background: #c9c9c9;
+    cursor: pointer;
+}
+
+.back{
+
+    position: absolute;
+    top: 22.5px;
+    left: 10px;
+    font-weight: 400;
+    
+}
+
+.goback{
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    text-decoration: none;
+    color: #171717;
+    font-weight: 400;
+    font-size: 20px;
+}
